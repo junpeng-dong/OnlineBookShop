@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payClServlet</servlet-name>
+    <servlet-class>com.pokey.controller.payClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComShopping</servlet-name>
+    <servlet-class>com.pokey.controller.ComShopping</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShoppingClServlet</servlet-name>
+    <servlet-class>com.pokey.controller.ShoppingClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowGoodsClServlet</servlet-name>
+    <servlet-class>com.pokey.controller.ShowGoodsClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.pokey.controller.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerCl</servlet-name>
+    <servlet-class>com.pokey.controller.registerCl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payedClServlet</servlet-name>
+    <servlet-class>com.pokey.controller.payedClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>accountClServlet</servlet-name>
+    <servlet-class>com.pokey.controller.accountClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginClServlet</servlet-name>
+    <servlet-class>com.pokey.controller.loginClServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>payedClServlet2</servlet-name>
+    <servlet-class>com.pokey.controller.payedClServlet2</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>payClServlet</servlet-name>
+    <url-pattern>/payClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComShopping</servlet-name>
+    <url-pattern>/ComShopping</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShoppingClServlet</servlet-name>
+    <url-pattern>/ShoppingClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowGoodsClServlet</servlet-name>
+    <url-pattern>/servlet/ShowGoodsClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerCl</servlet-name>
+    <url-pattern>/registerCl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>payedClServlet</servlet-name>
+    <url-pattern>/payedClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>accountClServlet</servlet-name>
+    <url-pattern>/accountClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginClServlet</servlet-name>
+    <url-pattern>/loginClServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>payedClServlet2</servlet-name>
+    <url-pattern>/payedClServlet2</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>main.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
