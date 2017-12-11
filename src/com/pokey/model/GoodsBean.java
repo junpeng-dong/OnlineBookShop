@@ -2,7 +2,7 @@ package com.pokey.model;
 
 public class GoodsBean {
 
-	
+
 	private int bookId;
 	private String bookName;
 	private float bookPrice;
@@ -15,7 +15,7 @@ public class GoodsBean {
 	private String bookInfo;
 	private String birth;
 	private String subClass;
-	
+
 	public int getGoodsId() {
 		return bookId;
 	}
@@ -77,6 +77,7 @@ public class GoodsBean {
 		this.fans = fans;
 	}
 	public String getAuthor() {
+	    //test for git
 		return author;
 	}
 	public void setAuthor(String author) {
