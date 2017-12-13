@@ -99,7 +99,7 @@ public class accountClServlet extends HttpServlet {
 			this.doGet(request, response);
 		}
 		
-		public void test1() {
+		public void test122() {
 		}
 
 }
