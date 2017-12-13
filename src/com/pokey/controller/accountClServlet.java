@@ -101,6 +101,5 @@ public class accountClServlet extends HttpServlet {
 		
 		public void test() {
 		}
-		}
 
 }
