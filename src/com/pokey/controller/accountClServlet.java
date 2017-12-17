@@ -98,5 +98,8 @@ public class accountClServlet extends HttpServlet {
 		
 			this.doGet(request, response);
 		}
+		
+		public void test12234577777() {
+		}
 
 }
