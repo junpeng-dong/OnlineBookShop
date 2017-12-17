@@ -12,6 +12,7 @@ public class GoodsBean {
 	private String publisher;
 	private String className;
 	private String author;
+//test dajun
 	private String bookInfo;
 	private String birth;
 	private String subClass;
